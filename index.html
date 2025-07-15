@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script defer src="portfolio.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container nav-content">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div>
+        <h1>Hello, I'm <span class="accent">a Web Developer</span></h1>
+        <p>Crafting elegant and user-friendly websites.</p>
+        <a href="resume.pdf" class="btn" target="_blank">View My Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="about-intro">
+        Final-year Computer Science and Engineering student with a proactive approach to learning and solving problems. Known for being detail-oriented and adaptable in collaborative environments. Eager to contribute to real-world projects, continuously improve through hands-on experience, and bring value to dynamic teams through effective communication and execution.
+      </p>
+
+      <div class="about-cards">
+        <div class="about-block">
+          <h3>Education</h3>
+          <p><strong>Gandhi Institute of Technology and Management (GITAM)</strong><br />
+          Bachelor of Technology – Computer Science and Engineering<br />
+          <em>CGPA: 8.33</em></p>
+        </div>
+
+        <div class="about-block">
+          <h3>Experience</h3>
+          <ul>
+            <li>Web Development Intern at Unified Mentor</li>
+            <li>AI Developer Intern at Viswam AI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project">
+          <h3>Netflix Clone with Watch Party</h3>
+          <p>Building a full-stack video streaming platform with real-time Watch Party using MERN and Socket.io. Includes profiles, resume playback, and live chat.</p>
+          <span class="timeline">Present / Ongoing</span>
+        </div>
+
+        <div class="project">
+          <h3>Go Events – AI Event Platform</h3>
+          <p>Built a web platform for event creation and check-ins. Designed intuitive UI in Figma, focused on accessibility and responsive layout.</p>
+          <span class="timeline">March 2025</span>
+        </div>
+
+        <div class="project">
+          <h3>To-Do List Web App</h3>
+          <p>Developed a responsive task manager using HTML, CSS, and JavaScript. Added edit/delete, local storage, and clean UI.</p>
+          <span class="timeline">June 2025</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <input type="text" id="subject" placeholder="Subject" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Srivalli. All rights reserved.</p>
+      <p>Email: <a href="mailto:nagasrivalli004@gmail.com">nagasrivalli004@gmail.com</a></p>
+      <p>Phone: +91 9542376543</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nanduri-naga-sri-valli/" target="_blank">naga-srivalli</a></p>
+    </div>
+  </footer>
+</body>
+</html>
